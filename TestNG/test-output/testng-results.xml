@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-02T12:51:39 PKT" name="Default suite" finished-at="2021-04-02T12:53:34 PKT" duration-ms="115307">
+    <groups>
+    </groups>
+    <test started-at="2021-04-02T12:51:39 PKT" name="Default test" finished-at="2021-04-02T12:53:34 PKT" duration-ms="115307">
+      <class name="Setup.cc.Setup_CallTest$setup">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Setup.cc.Setup_CallTest$setup@2f7298b]" started-at="2021-04-02T12:51:39 PKT" name="setup" finished-at="2021-04-02T12:51:43 PKT" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Setup.cc.Setup_CallTest$setup@2f7298b]" started-at="2021-04-02T12:51:43 PKT" name="login_test" data-provider="loginData" finished-at="2021-04-02T12:53:34 PKT" duration-ms="111549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[furqan.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[infogistic1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Setup.cc.Setup_CallTest$setup@2f7298b]" started-at="2021-04-02T12:53:34 PKT" name="teardown" finished-at="2021-04-02T12:53:34 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Setup.cc.Setup_CallTest$setup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
