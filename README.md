@@ -1,2 +1,0 @@
-# Clocud-clinik
-TestNG
